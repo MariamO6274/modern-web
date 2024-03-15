@@ -22,3 +22,5 @@ const Stats = () => (
 );
 
 export default Stats;
+
+// they are different size
