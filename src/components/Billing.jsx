@@ -2,6 +2,7 @@ import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
+  // first goes image and have a gradient background
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
@@ -26,6 +27,7 @@ const Billing = () => (
         neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
       </p>
 
+      {/* this is for 2 bottom imgs */}
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
         <img
           src={apple}
