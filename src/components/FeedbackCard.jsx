@@ -11,6 +11,7 @@ const FeedbackCard = ({ content, name, title, img }) => (
       {content}
     </p>
 
+    {/* feedback person imag and name  */}
     <div className="flex flex-row">
       <img src={img} alt={name} className="w-[48px] h-[48px] rounded-full" />
       <div className="flex flex-col ml-4">
